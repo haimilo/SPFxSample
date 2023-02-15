@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "faq-training",
+    "libraryId": "5793205e-342e-4357-99a9-2e25bc7eb34e",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "FAQTraining",
+    "solutionShortDescription": "FAQTraining description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
