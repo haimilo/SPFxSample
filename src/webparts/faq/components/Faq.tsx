@@ -17,7 +17,7 @@ const Faq = (props: IFaqProps) => {
 
   const getDataList = async () => {
     try {
-      const items = await _sp.web.lists.getByTitle(LIST_NAME).items();
+      const items = await _sp.web.lists.getByTitle(LIST_NAME).items.select().orderBy('Letter', true).orderBy('Title', true)();
       setFaqItems(items);
       console.log(items);
     } catch (error) {
